@@ -4,6 +4,7 @@ cd fonts
 cd ..
 rm -rf fonts
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo apt install zsh
 # vim ~/.zshrc
 # ZSH_THEME="agnoster"
 # source ~/.zshrc
